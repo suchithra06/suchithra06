@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>college admission form</title>
+</head>
+<body>
+    <form action="">
+      <CENTER>
+        <p><b>VELLORE INSTITUTE OF TECHNOLOGY</b></p>
+        <p><b>ADMISSION FORM</b></p>
+      </CENTER>
+        <br><br>
+        <center>
+        <p>enter your admission information below</p>
+        <label for="student name">STUDENT NAME :</label>
+        <input type="text" placeholder="eg name:siri" id="student name">
+        <br>
+        <br>
+        <label for="date">BIRTH DATE :</label>
+        <input type="date" id="date">
+        <br><br>
+        <label for="gender">GENDER :</label>
+        <select name="" id="gender">
+            <option value="">--select--</option>
+            <option value="">male</option>
+            <option value="">female</option>
+        </select>
+        <br><br>
+        <label for="name">FATHER's NAME :</label>
+        <input type="text" id="name">
+        <br><br>
+        <label for="names">MOTHER's NAME :</label>
+        <input type="text" id="names">
+        <br><br>
+        <label for="address">HOME ADDRESS :</label>
+        <input type="text" id="address" placeholder="street address">
+        <br><br>
+        <input type="text" placeholder="mandal">
+        <input type="text" placeholder="dist">
+        <br><br>
+        <label for="city">CITY :</label>
+        <input type="text" id="city">
+        <br><br>
+        <label for="state">Of which state are you a citizen? :</label>
+        <select name="" id="state">
+          <option value="">--select--</option>
+          <option value="">andhra pradesh</option>
+          <option value="">asaam</option>
+          <option value="">bihar</option>
+          <option value="">chandigarh</option>
+          <option value="">jharkhand</option>
+          <option value="">karnataka</option>
+          <option value="">tamilnadu</option>
+          <option value="">kerala</option>
+          <option value="">telangana</option>
+         </select>
+         <br><br>
+         <label for="Nation">NATIONALITY :</label>
+         <select name="" id="Nation">
+          <option value="">--select--</option>
+          <option value="">india</option>
+          <option value="">other</option>
+         </select>
+         <br><br>
+         <label for="NUMBER">PHONE NUMBER :</label>
+         <input type="text"id="NUMBER">
+         <br><br>
+         <label for="email">E-MAIL ADDRESS :</label>
+         <input type="text"id="email">
+         <br><br>
+         <label for="no.">ADDITIONAL PHONE NUMNER :</label>
+         <input type="text" id="no.">
+         <br><br>
+         <label for="">STUDENT SIGNATURE :</label>
+         <br><br>
+         <hr>
+         <center><b>EDUCATION</b></center>
+         <BR><BR></BR></BR>
+         <label for="school">HIGH SCHOOL NAME :</label>
+         <input type="text" id="school">
+         <br><br>
+         <label for="year">YEAR OF PASSED :</label>
+         <input type="text" id="year" placeholder="year">
+         <br><br>
+         <label for="Address">SCHOOL ADDRESS :</label>
+         <input type="text" id="Address" placeholder="mandal">
+         <br><br>
+         <input type="text" placeholder="dist.">
+         <input type="text" placeholder="city">
+         <br><br>
+         <input type="text" placeholder="state">
+         <br><br>
+         <label for="marks">SSC PERCENTAGE :</label>
+         <input type="text" id="marks" placeholder="marks">
+         <br><br>
+         <label for="NAME"> INTERMEDIATE COLLEGE NAME :</label>
+         <input type="text" id="NAME">
+         <br><br>
+         <label for="YEAR">YEAR OF PASSED :</label>
+         <input type="text" id="YEAR" placeholder="year">
+         <br><br>
+         <label for="ADDRESS">COLLEGE ADDRESS :</label>
+         <input type="text" id="ADDRESS" placeholder="town/city">
+         <br><br>
+         <input type="text" placeholder="dist.">
+         <input type="text" placeholder="state">
+         <br><br>
+         <label for="MARKS">INTERMEDIATE PERCENTAGE :</label>
+         <input type="text" id="MARKS">
+         <br><br>
+         <label for="country">COUNTRY :</label>
+         <select name="" id="country">
+          <option value="">--select--</option>
+          <option value="">INDIA</option>
+          <option value="">other</option>
+         </select>
+         <br><br>
+         <label for="">STUDENT SIGNATURE :</label>
+         <br><br>
+         <label for="">PARENT/GUARDIAN SIGNATURE :</label>
+         <br><br>
+         <input type="reset">
+         <br><br>
+         <hr>
+         <center><b>APPLICATION FEES </b></center>
+         <P>payment is due 3 days prior to the start of the class</P>
+         <br><br>
+         <p><b>PAYMENT METHOD :</b></p>
+         <input type="checkbox">
+         <label for="">credit card</label>
+         <br>
+         <input type="checkbox">
+         <label for="">mail a check</label>
+         <br>
+         <input type="checkbox">
+         <label for="">in -person at school</label>
+         <br><br>
+         <hr>
+         <input type="reset">
+         <input type="submit">
+        </center>
+    </form>
+</body>
+</html>
