@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size:x-large ;
+            font-weight:bold;
+            padding:40px;
+        }
+        .h{
+            background-color:rgb(246, 243, 238);
+            border: 2px solid orange;
+            border-radius: 20px;
+        }
+        hr{
+            width:90%;
+            margin-left: auto;
+            margin-right: auto;
+            border-top: 1px solid orange;
+        }
+        input[type=text]{
+            padding: 12px 20px;
+            margin:8px 0;
+            box-sizing: border-box;
+            border:1px solid orange;
+            outline:none;
+        }
+        input[type=text]:focus{
+            border: 1px solid orange;
+        }
+        label{
+            display: block;
+            float: left;
+            clear: left;
+            width:250px;
+            text-align: right;
+
+        }
+        input{
+            display:inline-block;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+    <div class="h">
+        <center><h2>WEBINAR REGISTRATION FORM</h2></center>
+        <hr>
+        <center>
+            <label for="name">Name :</label>
+            <input type="text" id="name" placeholder="firstname">
+            <input type="text" placeholder="last name">
+            <br>
+            <br>
+            <label for="mail">E-mail :</label>
+            <input type="text" id="mail" placeholder="ex:myname@example.com">
+            <br><br>
+            <label for="work">Work phone :</label>
+            <input type="text" id="work" placeholder="phone number">
+            <br><br>
+            <label for="company">Company :</label>
+            <input type="text" id="company" placeholder="company name">
+            <br><br>
+            <label for="address">Company Address :</label>
+            <input type="text" id="address" placeholder="street address">
+            <input type="text" placeholder="street address line 2">
+            <input type="text" placeholder="city">
+            <input type="text" placeholder="state">
+            <input type="text" placeholder="postal/zipcode">
+            <br><br>
+            <label for="country">Country :</label>
+            <select name="" id="country">
+                <option value="">--select--</option>
+                <option value="">india</option>
+                <option value="">other</option>
+            </select>
+            <br><br>
+            <label for="website">Company Website</label>
+            <input type="text" id="website">
+            <br><br>
+            <input type="submit" value="SUBMIT" style="font-size: 7pt;color:white; background-color:green;border:2px solid #336600;padding:3px;">
+            <br><br>
+        </center>
+    </div>
+    </form>
+</body>
+</html>
